@@ -53,8 +53,8 @@
             <h1 class="text-2xl md:text-3xl xl:text-4xl font-semibold mt-6 mb-8">Kitchenware</h1>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 h-fit">
                 <!-- card  -->
-                <div class="card bg-base-100 text-center">
-                    <figure class="bg-c4 m-5 p-7 rounded-lg"><img src="./images/prod1.png" alt="img"/></figure>
+                <div id="card1" class="card bg-base-100 text-center">
+                    <figure class="bg-c4 h-44 m-5 rounded-lg"><img src="./images/prod1.png" alt="img"/></figure>
                     <div class="card-body">
                         <div class="rating mx-auto">
                             <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
@@ -63,13 +63,13 @@
                             <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
                         </div>
-                        <p class="text-xl font-semibold">K. Accessories</p>
-                        <p class="text-xl text-c6">39.00 TK</p>
+                        <p class="text-xl font-semibold" id="card1Name">K. Accessories</p>
+                        <p class="text-xl text-c6"><span id="card1Price">39.00</span> TK</p>
                     </div>
                 </div>
                 <!-- card  -->
-                <div class="card bg-base-100 text-center">
-                    <figure class="bg-c4 m-5 p-6 rounded-lg"><img src="./images/prod2.png" alt="img"/></figure>
+                <div id="card2" class="card bg-base-100 text-center">
+                    <figure class="bg-c4 h-44 m-5 rounded-lg"><img src="./images/prod2.png" alt="img"/></figure>
                     <div class="card-body">
                         <div class="rating mx-auto">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-200"  />
@@ -78,13 +78,13 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-200" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-200" />
                         </div>
-                        <p class="text-xl font-semibold">K. Accessories</p>
-                        <p class="text-xl text-c6">25.00 TK</p>
+                        <p class="text-xl font-semibold" id="card2Name">K. Accessories</p>
+                        <p class="text-xl text-c6"><span  id="card2Price">25.00</span> TK</p>
                     </div>
                 </div>
                 <!-- card  -->
-                <div class="card bg-base-100 text-center">
-                    <figure class="bg-c4 m-5 p-7 rounded-lg"><img src="./images/prod3.png" alt="img"/></figure>
+                <div id="card3" class="card bg-base-100 text-center">
+                    <figure class="bg-c4 h-44 m-5 rounded-lg"><img src="./images/prod3.png" alt="img"/></figure>
                     <div class="card-body">
                         <div class="rating mx-auto">
                             <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400"  />
@@ -93,16 +93,16 @@
                             <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" checked/>
                             <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
                         </div>
-                        <p class="text-xl font-semibold">Home Cooker</p>
-                        <p class="text-xl text-c6">49.00 TK</p>
+                        <p class="text-xl font-semibold" id="card3Name">Home Cooker</p>
+                        <p class="text-xl text-c6"><span  id="card3Price">49.00</span> TK</p>
                     </div>
                 </div>
             </div>
             <h1 class="text-2xl md:text-3xl xl:text-4xl font-semibold mt-14 mb-8">Sportswear</h1>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 h-fit">
                 <!-- card  -->
-                <div class="card bg-base-100 text-center">
-                    <figure class="bg-c4 m-5 p-8 rounded-lg"><img src="./images/prod4.png" alt="img"/></figure>
+                <div id="card4" class="card bg-base-100 text-center">
+                    <figure class="bg-c4 h-44 m-5 rounded-lg"><img src="./images/prod4.png" alt="img"/></figure>
                     <div class="card-body">
                         <div class="rating mx-auto">
                             <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
@@ -111,13 +111,13 @@
                             <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
                         </div>
-                        <p class="text-xl font-semibold">Sports Back Cap</p>
-                        <p class="text-xl text-c6">49.00 TK</p>
+                        <p class="text-xl font-semibold" id="card4Name">Sports Back Cap</p>
+                        <p class="text-xl text-c6"><span id="card4Price">49.00</span> TK</p>
                     </div>
                 </div>
                 <!-- card  -->
-                <div class="card bg-base-100 text-center">
-                    <figure class="bg-c4 m-5 p-6 rounded-lg"><img src="./images/prod5.png" alt="img"/></figure>
+                <div id="card5" class="card bg-base-100 text-center">
+                    <figure class="bg-c4 h-44 m-5 rounded-lg"><img src="./images/prod5.png" alt="img"/></figure>
                     <div class="card-body">
                         <div class="rating mx-auto">
                             <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400"  />
@@ -126,13 +126,13 @@
                             <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked/>
                             <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                         </div>
-                        <p class="text-xl font-semibold">Full Jersey Set</p>
-                        <p class="text-xl text-c6">69.00 TK</p>
+                        <p class="text-xl font-semibold" id="card5Name">Full Jersey Set</p>
+                        <p class="text-xl text-c6"><span id="card5Price">69.00</span> TK</p>
                     </div>
                 </div>
                 <!-- card  -->
-                <div class="card bg-base-100 text-center">
-                    <figure class="bg-c4 m-5 p-6 rounded-lg"><img src="./images/prod6.png" alt="img"/></figure>
+                <div id="card6" class="card bg-base-100 text-center">
+                    <figure class="bg-c4 h-44 m-5 rounded-lg"><img src="./images/prod6.png" alt="img"/></figure>
                     <div class="card-body">
                         <div class="rating mx-auto">
                             <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400"  />
@@ -141,8 +141,8 @@
                             <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
                         </div>
-                        <p class="text-xl font-semibold">Sports cates</p>
-                        <p class="text-xl text-c6">159.00 TK</p>
+                        <p class="text-xl font-semibold" id="card6Name">Sports cates</p>
+                        <p class="text-xl text-c6"><span id="card6Price">159.00</span> TK</p>
                     </div>
                 </div>
             </div>
@@ -151,24 +151,24 @@
             <div class="p-5 bg-white rounded-lg mb-5">
                 <h1 class="text-xl font-medium mb-2">Have coupon?</h1>
                 <div class="flex justify-center items-center">
-                    <input type="text" name="" id="" placeholder="Coupon code" class="p-3 outline-none border border-c4 rounded-l-lg w-full">
-                    <button class="btn bg-c3 text-white hover:bg-transparent hover:text-c3 hover:border-c3 rounded-l-none">Apply</button>
+                    <input type="text" name="" id="couponCode" placeholder="Coupon code" class="p-3 outline-none border border-c4 rounded-l-lg w-full">
+                    <button id="couponBtn" class="btn bg-c3 text-white hover:bg-transparent hover:text-c3 hover:border-c3 rounded-l-none">Apply</button>
                 </div>
             </div>
             <div class="p-5 bg-white rounded-lg">
-                <div  class="text-xl font-medium">
+                <div id="addName" class="text-xl font-medium">
                     <h1>1. Home Cooker</h1>
                 </div>
                 <hr class="my-5">
                 <div class="text-xl font-medium space-y-1">
-                    <h1>Total price: <span>00</span> TK</h1>
-                    <h1>Discount: <span>00</span> TK</h1>
-                    <h1>Total: <span>00</span> TK</h1>
+                    <h1>Total price: <span id="totalPrice">00</span> TK</h1>
+                    <h1>Discount: <span id="discount">00</span> TK</h1>
+                    <h1>Total: <span id="total">00</span> TK</h1>
                 </div>
                 <hr class="my-5">
                 <div>
                     <!-- Open the modal using ID.showModal() method -->
-                    <button class="btn bg-c3 text-white hover:bg-transparent hover:text-c3 hover:border-c3 rounded-lg w-full" onclick="my_modal_1.showModal()">Make Purchase</button>
+                    <button id="purchaseBtn" class="btn bg-c3 text-white hover:bg-transparent hover:text-c3 hover:border-c3 rounded-lg w-full" onclick="my_modal_1.showModal()">Make Purchase</button>
                 </div>
                 <dialog id="my_modal_1" class="modal">
                 <form method="dialog" class="modal-box text-center py-20">
@@ -177,12 +177,90 @@
                     <p class="py-4">Your Purchase the product</p>
                     <div class="modal-action justify-center">
                         <!-- if there is a button in form, it will close the modal -->
-                        <button class="btn bg-c3 text-white hover:bg-transparent hover:text-c3 hover:border-c3 rounded-lg">Go Home</button>
+                        <button id="goHomeBtn" class="btn bg-c3 text-white hover:bg-transparent hover:text-c3 hover:border-c3 rounded-lg">Go Home</button>
                     </div>
                 </form>
                 </dialog>
             </div>
         </div>
     </main>
+    <script>
+        const couponBtn = document.getElementById('couponBtn');
+        const purchaseBtn = document.getElementById('purchaseBtn');
+        const goHomeBtn = document.getElementById('goHomeBtn');
+        couponBtn.disabled = true;
+        purchaseBtn.disabled = true;
+        
+        goHomeBtn.addEventListener('click', function(){
+            const totalPriceClearFiled = document.getElementById('totalPrice');
+            const discountClearFiled = document.getElementById('discount');
+            const totalClearFiled = document.getElementById('total');
+            const clearName = document.getElementById('addName');
+            totalPriceClearFiled.innerText = '00';
+            discountClearFiled.innerText = '00';
+            totalClearFiled.innerText = '00';
+            clearName.innerText = '';
+
+        })
+        couponBtn.addEventListener('click', function(){
+            const totalPrice2 = Number(document.getElementById('totalPrice').innerText);
+            const discountFiled = document.getElementById('discount');
+            const discount = Number(discountFiled.innerText);
+            const totalFiled = document.getElementById('total');
+            const total = Number(totalFiled.innerText);
+            const couponCodeFiled = document.getElementById('couponCode');
+            const couponCode = couponCodeFiled.value;
+            couponCodeFiled.value = '';
+            if(couponCode === 'SELL200'){
+                const totalNewToFixed = totalPrice2 * 0.8;
+                const totalNew = totalNewToFixed.toFixed(2);
+                totalFiled.innerText = totalNew;
+                const discountNewToFixed = totalPrice2 * 0.2;
+                const discountNew = discountNewToFixed.toFixed(2);
+                discountFiled.innerText = discountNew;
+            }
+
+        })
+        
+        function getElementInnerText(nameId, priceId){
+            const addName = document.getElementById('addName');
+            const elementText = document.getElementById(nameId).innerText;
+            const h1 = document.createElement('h1');
+            h1.innerText = elementText;
+            addName.appendChild(h1);
+            const totalPriceFiled = document.getElementById('totalPrice');
+            const totalPrice = Number(document.getElementById('totalPrice').innerText);
+            const element = Number(document.getElementById(priceId).innerText);
+            const totalPriceNow = totalPrice + element;
+            totalPriceFiled.innerText = totalPriceNow;
+            if(totalPriceNow > 0){
+            purchaseBtn.disabled = false;
+        }
+            if(totalPriceNow >= 200){
+            couponBtn.disabled = false;
+        }
+        };
+
+        document.getElementById('card1').addEventListener('click', function(){
+            getElementInnerText('card1Name', 'card1Price')
+        });
+        document.getElementById('card2').addEventListener('click', function(){
+            getElementInnerText('card2Name', 'card2Price')
+        });
+        document.getElementById('card3').addEventListener('click', function(){
+            getElementInnerText('card3Name', 'card3Price')
+        });
+        document.getElementById('card4').addEventListener('click', function(){
+            getElementInnerText('card4Name', 'card4Price')
+        });
+        document.getElementById('card5').addEventListener('click', function(){
+            getElementInnerText('card5Name', 'card5Price')
+        });
+        document.getElementById('card6').addEventListener('click', function(){
+            getElementInnerText('card6Name', 'card6Price')
+        });
+
+
+    </script>
 </body>
 </html>
