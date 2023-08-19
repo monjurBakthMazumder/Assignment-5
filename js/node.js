@@ -11,6 +11,7 @@ const couponBtn = document.getElementById('couponBtn');
             totalPriceClearFiled.innerText = '00';
             discountClearFiled.innerText = '00';
             totalClearFiled.innerText = '00';
+            i = 0;
             clearName.innerText = '';
             couponBtn.disabled = true;
             purchaseBtn.disabled = true;
